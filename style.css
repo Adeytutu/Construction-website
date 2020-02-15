@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    padding: 0;
+    margin: 0;
+   background:  linear-gradient(to bottom, rgba(255, 211, 0, 0.60), rgba(255, 217, 0, 0.70)), url('./mitchell-luo-UiSU4AUcQEA-unsplash.jpg');  
+    background-size: cover;
+    background-position: center;
+    color: black;
+    font-family: 'century gothic' sans-serif;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.black {
+    background-color: rgba(0, 0, 0, 0.800);
+    border-radius: 50px;
+    padding: 10px;
+} 
+
+ul li {
+    font-weight: 300;
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    transition: all 0.4s ease-in-out;
+}
+
+#buttons li.black, #buttons li:hover {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+p {
+    margin: 20px;
+    font-size: 15px ;
+}
+.black {
+    background-color: rgba(0, 0, 0, 0.800);
+    border-radius: 50px;
+    padding: 10px;
+} 
+
+#grid-group {
+    display: grid;
+    width: 70vw;
+    height: 50vh;
+    margin: auto;
+    grid-template-columns: repeat(4, minmax(250px, 1fr));
+    grid-template-rows: repeat(3, minmax(250px, 1fr));
+    grid-gap: 10px;
+} 
+
+.grid-items:nth-child(1) {
+    
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.grid-items {
+    background-color: #111;
+}
+
+.grid-items:nth-child(1) img {
+    width: 100%;
+    height: 100%;
+}
+
+.grid-items:nth-child(2) img {
+    width: 100%;
+    height: 100%;
+}
+
+.grid-items:nth-child(3) img {
+    width: 100%;
+    height: 100%;
+}
+
+.grid-items:nth-child(4) img {
+    width: 100%;
+    height: 100px;
+}
+
+.grid-items:nth-child(5) img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
